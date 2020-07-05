@@ -1,2 +1,3 @@
 name: Reza Sourki Webpage
 markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
