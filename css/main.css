@@ -8,9 +8,9 @@ a:hover { text-decoration: underline; }
 
 h1, h2, h3, h4 { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; }
 h1 { font-size: 3em;  }
-h2 { font-size: 2.em; }
+h2 { font-size: 2.0em; }
 h3 { font-size: 1.5em; }
-h4 { font-size: 1.em; }
+h4 { font-size: 1.0em; }
 
 p { font-size: 1.2em; line-height: 1.1em; color: #333; }
 
