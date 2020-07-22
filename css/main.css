@@ -48,27 +48,27 @@ ul.posts li { list-style: none; }
 	position: relative;
 	display: inline-block;
 	margin-bottom: 30px;
-	-webkit-border-radius: 400px;
-        -moz-border-radius: 400px;
-        border-radius: 400px;
+	-webkit-border-radius: 300px;
+        -moz-border-radius: 300px;
+        border-radius: 300px;
 }
 
 .flippable .front-img{
-	-webkit-border-radius: 400px;
-        -moz-border-radius: 400px;
-        border-radius: 400px;
+	-webkit-border-radius: 300px;
+        -moz-border-radius: 300px;
+        border-radius: 300px;
 }
 
 .flippable .img-circle{  /*.avatar*/
 	display: none;
 	position: absolute;
 	margin-bottom: 30px; 
-	top: 0;
-	left: 0;
+	top: 10;
+	left: 20;
 	z-index: 99;
-	-webkit-border-radius: 400px;
-        -moz-border-radius: 400px;
-        border-radius: 400px;
+	-webkit-border-radius: 300px;
+        -moz-border-radius: 300px;
+        border-radius: 300px;
 }
 
 .flippable:hover .img-circle{
