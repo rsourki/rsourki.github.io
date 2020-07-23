@@ -47,31 +47,31 @@ ul.posts li { list-style: none; }
 .flippable{
 	position: relative;
 	display: inline-block;
-	margin-bottom: 30px;
-	-webkit-border-radius: 300px;
-        -moz-border-radius: 300px;
-        border-radius: 300px;
+	margin-bottom: 20px;
+	-webkit-border-radius: 500px;
+        -moz-border-radius: 500px;
+        border-radius: 500px;
 }
 
 .flippable .front-img{
-	-webkit-border-radius: 300px;
-        -moz-border-radius: 300px;
-        border-radius: 300px;
+	-webkit-border-radius: 500px;
+        -moz-border-radius: 500px;
+        border-radius: 500px;
 }
 
 .flippable .img-circle{  /*.avatar*/
 	display: none;
 	position: absolute;
-	margin-bottom: 30px; 
-	top: 10;
-	left: 20;
+	margin-bottom: 20px; 
+	top: 99;
+	left: 99;
 	z-index: 99;
-	-webkit-border-radius: 300px;
-        -moz-border-radius: 300px;
-        border-radius: 300px;
+	-webkit-border-radius: 500px;
+        -moz-border-radius: 500px;
+        border-radius: 500px;
 }
 
 .flippable:hover .img-circle{
 	display: inline;
-	margin-bottom: 30px; 
+	margin-bottom: 20px; 
 }
