@@ -48,7 +48,7 @@ ul.posts li { list-style: none; }
 	clear: right;
 	margin-left: 10px;
 	margin-bottom: 5px;
-	border: solid black 1px;
+	border: solid black 0px;
 	padding: 2px;
 	max-width: 100%;
 	height: auto;
