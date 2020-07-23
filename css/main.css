@@ -48,15 +48,15 @@ ul.posts li { list-style: none; }
 	position: relative;
 	display: inline-block;
 	margin-bottom: 20px;
-	-webkit-border-radius: 500px;
-        -moz-border-radius: 500px;
-        border-radius: 500px;
+	-webkit-border-radius: 200px;
+        -moz-border-radius: 200px;
+        border-radius: 200px;
 }
 
 .flippable .front-img{
-	-webkit-border-radius: 500px;
-        -moz-border-radius: 500px;
-        border-radius: 500px;
+	-webkit-border-radius: 200px;
+        -moz-border-radius: 200px;
+        border-radius: 200px;
 }
 
 .flippable .img-circle{  /*.avatar*/
@@ -66,9 +66,9 @@ ul.posts li { list-style: none; }
 	top: 99;
 	left: 99;
 	z-index: 99;
-	-webkit-border-radius: 500px;
-        -moz-border-radius: 500px;
-        border-radius: 500px;
+	-webkit-border-radius: 200px;
+        -moz-border-radius: 200px;
+        border-radius: 200px;
 }
 
 .flippable:hover .img-circle{
