@@ -43,6 +43,13 @@ ul.posts li { list-style: none; }
 
 
 
+.float-img{
+	float: right;
+	margin-left: 10px;
+	margin-bottom: 5px;
+	border: solid black 1px;
+	padding: 2px;
+}
 
 .flippable{
 	position: relative;
