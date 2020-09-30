@@ -62,7 +62,6 @@ ul.posts li { list-style: none; }
 	border: solid black 0px;
 	padding: 2px;
 	width: 100%;
-	max-width: 800px;
 	height: auto;
 }
 
