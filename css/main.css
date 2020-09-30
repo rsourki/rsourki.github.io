@@ -54,6 +54,19 @@ ul.posts li { list-style: none; }
 	height: auto;
 }
 
+.responsive-img{
+	float: center;
+	clear: center;
+	margin-left: 10px;
+	margin-bottom: 5px;
+	border: solid black 0px;
+	padding: 2px;
+	width: 100%;
+	max-width: 400px;
+	height: auto;
+	max-width: 400px;
+}
+
 .flippable{
 	position: relative;
 	display: inline-block;
