@@ -60,7 +60,7 @@ ul.posts li { list-style: none; }
 	border: solid black 0px;
 	padding: 2px;
 	max-width: 50%;
-	height: auto;
+	max-height: auto;
 }
 
 .flippable{
