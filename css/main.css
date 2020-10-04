@@ -31,7 +31,7 @@ p {
     color: #333;
 }
 
-div.c {
+c {
   text-align: justify; /* For Edge */
   text-align-last: justify;
 }
