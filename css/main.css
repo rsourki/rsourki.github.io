@@ -30,7 +30,7 @@ p {
     line-height: 1.2em;
     color: #333;
     text-align: justify; /* For Edge */
-    text-align-last: justify;	
+    text-align-last: left;	
 }
 
 c {
