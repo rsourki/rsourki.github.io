@@ -23,9 +23,9 @@ a:hover {
 
 #menu {
   position: fixed;
-  right: 20px;
+  right: 30px;
   top: 10%;
-  width: 5em;
+  width: 10em;
   margin-top: -2.5em;
 }
 
