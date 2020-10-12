@@ -147,7 +147,6 @@ set-box-shadow-cicis-menu-to-go {
 */
 .responsive-wrapper {
   position: relative;
-  display: block;
   height: 10;    /* gets height from padding-bottom */
   overflow: hidden;
   /* put following styles (necessary for overflow and 
@@ -175,7 +174,7 @@ set-box-shadow-cicis-menu-to-go {
 
 #Iframe-Cicis-Menu-To-Go {
   max-width: 666.67px;
-  max-height: 700px;
+  max-height: 600px;
   overflow: hidden;
 }
 /*
