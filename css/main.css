@@ -213,9 +213,9 @@ set-box-shadow-cicis-menu-to-go {
   width: 90%;
   height: 35px;
   background: #A9A9A9;
-  border-radius: 5px;
+  border-radius: 2px;
   position: relative;
-  transition: all 2s linear;
+  transition: all 4s linear;
 }
 
 .bar-1,
