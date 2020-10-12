@@ -206,14 +206,13 @@ set-box-shadow-cicis-menu-to-go {
 
 .titlebar {
   font-weight: bold;
-  font-size: 20px;
-  color: #db3a34;
+  font-size: 16px;
 }
 
 .bar {
   width: 90%;
   height: 35px;
-  background: #D3D3D3;
+  background: #A9A9A9;
   border-radius: 5px;
   position: relative;
   transition: all 2s linear;
