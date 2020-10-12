@@ -224,7 +224,8 @@ set-box-shadow-cicis-menu-to-go {
   transition: all 2s linear;
 }
 
-.bar-1{
+.bar-1,
+.my-skills {
   width: 80%;
   margin: 10px auto 25px;
 }
@@ -233,8 +234,8 @@ set-box-shadow-cicis-menu-to-go {
   width: 0;
   height: 35px;
   line-height: 35px;
-  border-radius: 5px 0 0 5px;
   background: #000000;
+  border-radius: 5px 0 0 5px;
 }
 
 .bar-percent {
