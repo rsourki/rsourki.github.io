@@ -3,8 +3,3 @@ $(".bar").each(function(){
     width: $(this).attr("data-width")
   },2000)
 }); 
-/* $(window).on('load', function() {
-  $(".bar-inner").animate({
-    width: $(this).attr("data-width")
-  },2000)
-});*/
