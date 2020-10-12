@@ -236,13 +236,3 @@ set-box-shadow-cicis-menu-to-go {
   top: 5px;
   font-size: 18px;
 }
-
-<script>
-$(".bar").each(function(){
-	var $this = $(this);
-	var data_width = $(this).attr("data-width")
-  	$this.find(".bar-inner").animate({
-    		width: $this.attr("data-width")
-  },2000)
-});
-</script>
