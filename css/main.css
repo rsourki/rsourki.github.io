@@ -204,6 +204,10 @@ set-box-shadow-cicis-menu-to-go {
   clear: both;
 }
 
+.container {
+  margin-top: 20px;
+}
+
 .titlebar {
   font-weight: bold;
   font-size: 16px;
@@ -212,14 +216,13 @@ set-box-shadow-cicis-menu-to-go {
 .bar {
   width: 90%;
   height: 35px;
-  background: #A9A9A9;
+  background: #D3D3D3;
   border-radius: 5px;
   position: relative;
   transition: all 4s linear;
 }
 
-.bar-1,
-.my-skills {
+.bar-1{
   width: 80%;
   margin: 10px auto 25px;
 }
