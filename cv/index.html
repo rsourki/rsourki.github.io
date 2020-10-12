@@ -28,9 +28,20 @@ title: Research - Reza Sourki Webpage
   <script type="text/javascript" scr="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <!-- <script type="text/javascript" scr="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"></script> -->
   <script scr="/js/myscript.js"></script>  
-  
+  <scrip>
+    jQuery(document).ready(function(){
+        jQuery('.bar').each(function(){
+          jQuery(this).find('.bar-inner').animate({
+            width:jQuery(this).attr('data-width')
+          }, 2000);
+        });
+    });
+  </script>  
+    
+    
+    
     <div class="bar-1">
-      <div class="title">HTML5</div>
+      <div class="title">HTML55</div>
       <div class="bar" data-width="65%">
         <div class="bar-inner"></div>
         <script type="text/javascript" scr="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
