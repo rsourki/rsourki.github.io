@@ -234,6 +234,7 @@ set-box-shadow-cicis-menu-to-go {
   height: 35px;
   line-height: 35px;
   border-radius: 5px 0 0 5px;
+  background: #000000;
 }
 
 .bar-percent {
