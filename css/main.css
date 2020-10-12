@@ -162,7 +162,7 @@ set-box-shadow-cicis-menu-to-go {
   top: 0;
   left: 0;
   width: 100%;
-  height: auto;
+  height: 100%;
    
   border-style: none;
   padding: 0;
@@ -175,7 +175,7 @@ set-box-shadow-cicis-menu-to-go {
 
 #Iframe-Cicis-Menu-To-Go {
   max-width: 666.67px;
-  max-height: auto;
+  max-height: 700px;
   overflow: hidden;
 }
 /*
