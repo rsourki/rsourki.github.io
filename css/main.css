@@ -239,8 +239,10 @@ set-box-shadow-cicis-menu-to-go {
 
 <script>
 $(".bar").each(function(){
-  $(this).find(".bar-inner").animate({
-    width: $(this).attr("data-width")
+	var $this = $(this);
+	var data_width = $(this).attr("data-width")
+  	$this.find(".bar-inner").animate({
+    		width: $this.attr("data-width")
   },2000)
 });
 </script>
