@@ -132,7 +132,7 @@ ul.posts li { list-style: none; }
 .set-border-cicis-menu-to-go {
    border: 1px inset #4f4f4f;
 }
-set-box-shadow-cicis-menu-to-go {
+.set-box-shadow-cicis-menu-to-go {
   -webkit-box-shadow: 4px 4px 14px #4f4f4f;
      -moz-box-shadow: 4px 4px 14px #4f4f4f;
           box-shadow: 4px 4px 14px #4f4f4f;
@@ -216,7 +216,6 @@ set-box-shadow-cicis-menu-to-go {
   height: 20px;
   background: #DCDCDC;
   border-radius: 8px;
-  transition: all 2s linear;
 }
 
 .bar-1{
@@ -231,6 +230,7 @@ set-box-shadow-cicis-menu-to-go {
   background-color: #000000;
   position: relative;	
   border-radius: 8px;
+  transition: all 2s linear;	
 }
 
 .bar-percent {
