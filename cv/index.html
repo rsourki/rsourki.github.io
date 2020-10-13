@@ -42,14 +42,14 @@ title: Research - Reza Sourki Webpage
   
     <div class="bar-1">
       <div class="titlebar">Javascript</div>
-      <div class="bar" data-width="95%">
+      <div class="bar" per="95">
         <div class="bar-inner"></div>
       </div>
     </div>
   
     <div class="bar-1">
       <div class="titlebar">jQuery</div>
-      <div class="bar" data-width="75%">
+      <div class="bar" per="75">
         <div class="bar-inner"></div>
       </div>
     </div>
@@ -57,10 +57,15 @@ title: Research - Reza Sourki Webpage
   
     <script>
       $(".bar").each(function(){
+        var $this = $(this);
+        var per = %this.attr('per');
+        %this.css("width", per='%');
+      });
+      /* $(".bar").each(function(){
         $(this).find(".bar-inner").animate({
           width: $(this).attr("data-width")
         },2000)
-      }); 
+      }); */ 
     </script>
   
   
