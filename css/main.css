@@ -211,16 +211,17 @@ ul.posts li { list-style: none; }
   color: #333;
 }
 
+.bar-1{
+  width: 80%;
+  margin: 10px auto 25px;
+}
+
 .bar {
   /*width: 90%;*/
   height: 20px;
   background: #DCDCDC;
   border-radius: 8px;
-}
-
-.bar-1{
-  width: 80%;
-  margin: 10px auto 25px;
+  transition: all 2s linear;	
 }
 
 .bar-inner {
