@@ -42,21 +42,21 @@ title: Research - Reza Sourki Webpage
   
     <div class="bar-1">
       <div class="titlebar">Javascript</div>
-      <div class="bar" per="95">
-        <div class="bar-inner"></div>
+      <div class="bar">
+        <div class="bar-inner" per="75"></div>
       </div>
     </div>
   
     <div class="bar-1">
       <div class="titlebar">jQuery</div>
-      <div class="bar" per="75">
-        <div class="bar-inner"></div>
+      <div class="bar">
+        <div class="bar-inner" per="75"></div>
       </div>
     </div>
 
   
     <script>
-      $(".bar").each(function(){
+      $(".bar-inner").each(function(){
         var $this = $(this);
         var per = %this.attr('per');
         %this.css("width", per='%');
