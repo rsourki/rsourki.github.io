@@ -218,7 +218,7 @@ ul.posts li { list-style: none; }
 
 .bar {
   /*width: 90%;*/
-  height: 15px;
+  height: 10px;
   background: #DCDCDC;
   border-radius: 8px;
   transition: all 2s linear;	
@@ -226,7 +226,7 @@ ul.posts li { list-style: none; }
 
 .bar-inner {
   width: 0;
-  height: 15px;
+  height: 10px;
   /*line-height: 20px;*/
   background-color: #000000;
   position: relative;	
