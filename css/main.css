@@ -212,11 +212,10 @@ set-box-shadow-cicis-menu-to-go {
 }
 
 .bar {
-  width: 90%;
-  height: 35px;
+  /*width: 90%;*/
+  height: 20px;
   background: #DCDCDC;
-  border-radius: 5px;
-  position: relative;
+  border-radius: 8px;
   transition: all 2s linear;
 }
 
@@ -227,10 +226,11 @@ set-box-shadow-cicis-menu-to-go {
 
 .bar-inner {
   width: 0;
-  height: 35px;
-  line-height: 35px;
-  background: #000000;
-  border-radius: 5px 0 0 5px;
+  height: 20px;
+  /*line-height: 20px;*/
+  background-color: #000000;
+  position: relative;	
+  border-radius: 8px;
 }
 
 .bar-percent {
