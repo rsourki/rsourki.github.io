@@ -53,7 +53,7 @@ title: Research - Reza Sourki Webpage
         $({animatedValue: 0}).animate({animatedValue: per}, {
             duration: 2000,
             step: function(){
-              %this.attr("per", Math.floor(this.animatedValue));
+              $this.attr("per", Math.floor(this.animatedValue));
             }
         });
       });
