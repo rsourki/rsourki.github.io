@@ -226,7 +226,7 @@ set-box-shadow-cicis-menu-to-go {
 }
 
 .bar-inner {
-  width: 50%;
+  width: 0;
   height: 35px;
   line-height: 35px;
   background: #000000;
