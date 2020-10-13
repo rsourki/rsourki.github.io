@@ -45,19 +45,6 @@ title: Research - Reza Sourki Webpage
         <div class="bar-inner" per="75"></div>
       </div>
   
-    <script>
-      $(".bar-inner").each(function(){
-        var $this = $(this);
-        var per = $this.attr("per");
-        $this.css("width", per+"%");
-        $({animatedValue: 0}).animate({animatedValue: per}, {
-            duration: 2000,
-            step: function(){
-              $this.attr("per", Math.floor(this.animatedValue));
-            }
-        });
-      });
-    </script>
   
   
   
@@ -94,6 +81,19 @@ title: Research - Reza Sourki Webpage
 </div>
 </div>
 
+    <script>
+      $(".bar-inner").each(function(){
+        var $this = $(this);
+        var per = $this.attr("per");
+        $this.css("width", per+"%");
+        $({animatedValue: 0}).animate({animatedValue: per}, {
+            duration: 2000,
+            step: function(){
+              $this.attr("per", Math.floor(this.animatedValue));
+            }
+        });
+      });
+    </script>
   
   
 </div><!-- /.blurb -->
