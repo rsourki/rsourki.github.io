@@ -3,6 +3,7 @@ layout: default
 title: Research - Reza Sourki Webpage
 ---
 <div class="blurb">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>  
 <!-- <iframe src="/cv/Reza Sourki - CV - Updated October 1 2020.pdf#toolbar=0" width="80%" height="auto" />
 </iframe> -->
 
@@ -24,8 +25,6 @@ title: Research - Reza Sourki Webpage
   
   
 <!-- --------- For Skills ----------- -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
       <div class="titlebar">HTML5</div>
       <div class="bar">
         <div class="bar-inner" per="65"></div>
@@ -49,8 +48,8 @@ title: Research - Reza Sourki Webpage
     <script>
       $(".bar-inner").each(function(){
         var $this = $(this);
-        var per = %this.attr('per');
-        %this.css("width", per+'%');
+        var per = %this.attr("per");
+        %this.css("width", per+"%");
         $({animatedValue: 0}).animate({animatedValue: per}, {
             duration: 2000,
             step: function(){
