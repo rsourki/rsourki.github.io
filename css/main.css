@@ -205,14 +205,23 @@ set-box-shadow-cicis-menu-to-go {
 }
 
 
-.container {
+bodybar {
+  background: #2E282A;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.containerbar {
   margin-top: 20px;
 }
 
+hbar2 {
+  color: #fff;
+}
 
 .titlebar {
   font-weight: bold;
-  font-size: 16px;
+  font-size: 20px;
+  color: #db3a34;
 }
 
 .bar {
