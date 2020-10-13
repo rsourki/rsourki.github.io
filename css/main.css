@@ -212,13 +212,13 @@ ul.posts li { list-style: none; }
 }
 
 .bar-1{
-  width: 80%;
-  margin: 10px auto 25px;
+  width: 70%;
+  margin: 5px auto 15px;
 }
 
 .bar {
   /*width: 90%;*/
-  height: 20px;
+  height: 15px;
   background: #DCDCDC;
   border-radius: 8px;
   transition: all 2s linear;	
@@ -226,7 +226,7 @@ ul.posts li { list-style: none; }
 
 .bar-inner {
   width: 0;
-  height: 20px;
+  height: 15px;
   /*line-height: 20px;*/
   background-color: #000000;
   position: relative;	
