@@ -50,9 +50,10 @@ title: Research - Reza Sourki Webpage
       $(".bar-inner").each(function(){
         var $this = $(this);
         var per = %this.attr('per');
-        %this.css("width", per='%');
-        $({animatedValue: 0}).animate({animatedValue: per},
+        %this.css("width", per+'%');
+        $({animatedValue: 0}).animate({animatedValue: per}, {
             duration: 2000)
+        });
       });
       /* $(".bar").each(function(){
         $(this).find(".bar-inner").animate({
