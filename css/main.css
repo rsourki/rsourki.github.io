@@ -240,3 +240,5 @@ ul.posts li { list-style: none; }
   top: 5px;
   font-size: 18px;
 }
+
+table {border: none;}
